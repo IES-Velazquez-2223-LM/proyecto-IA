@@ -16,5 +16,5 @@ The Machine Learners: navegando el futuro.
 
 ## Autores ✒️
 
-* **José Luis Pino** - *Trabajo Inicial*
-* **Marco Antonio Blanco** - *Documentación*
+* **José Luis Pino**
+* **Marco Antonio Blanco**
