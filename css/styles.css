@@ -68,10 +68,18 @@ nav a:hover {
 
 section{
     border:2px solid red;
+    margin: 5% 0;
 }
 
 article{
     border:2px solid green;
+    margin: 3% 0;
+}
+
+.cabeceras{
+    border:2px solid orange;
+    text-align: center;
+    margin: 1% 0;
 }
 
 
