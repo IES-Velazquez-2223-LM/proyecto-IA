@@ -138,3 +138,12 @@ footer{
 .volver{
     margin: 0 auto;
 }
+
+.volver>a{
+    display: flex;
+}
+
+.volver>a>img{
+    width: 50%;
+    margin: 0 auto;
+}
