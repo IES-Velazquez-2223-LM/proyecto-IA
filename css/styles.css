@@ -20,6 +20,7 @@ header {
     padding: 0;
     margin-bottom: 40px;
     text-align: center;
+    color: white;
 }
 
 #titulo {
@@ -120,4 +121,14 @@ footer{
 
 .headerArt{
     color: white;
+}
+
+.centrar{
+    width: 70%;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.centrar>*{
+    margin: 3% 0;
 }
