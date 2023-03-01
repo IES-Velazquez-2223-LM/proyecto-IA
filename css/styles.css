@@ -11,6 +11,8 @@ body{
     font-family: 'Playfair Display', sans-serif;
 }
 
+/*HEADER*/
+
 header {
     background: rgb(0, 0, 0);
     width: 100%;
@@ -28,9 +30,6 @@ header {
     padding: 40px;
     margin-top:50px;
     letter-spacing: 10px;
-
-
-    
 }
 
 #fondo {
@@ -44,8 +43,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  
-
 }
 
 nav a {
@@ -55,10 +52,6 @@ nav a {
     text-decoration: none;
     padding: 1rem;
     border: 1px solid white;
-
-
-
-
 }
 
 nav a:hover {
@@ -66,6 +59,9 @@ nav a:hover {
     color: black;
 }
 
+
+
+/*MAIN*/
 section{
     border:2px solid red;
     margin: 5% 0;
@@ -86,9 +82,8 @@ article{
 
 
 
-
+/*FOOTER*/
 footer{
-   
     padding: 40px; 
     margin-top: 50px;
     text-align: center;
