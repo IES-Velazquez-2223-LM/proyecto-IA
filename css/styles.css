@@ -20,7 +20,7 @@ header {
     text-align: center;
 }
 
-.titulo {
+#titulo {
     font-family: 'Whiskey Girls Laser Italic', sans-serif;
     background-color: black;
     font-size: 60px;
@@ -95,4 +95,28 @@ footer{
     background-color:darkblue;
     color:whitesmoke;
 }
+
+#UpButton{
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    position: fixed;
+    height: 50px;
+    background-color: rgba(249, 148, 0, 1);
+    z-index: 20;
+    font-size: 50px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+#UpButton>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    font-size: 100%;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
 
