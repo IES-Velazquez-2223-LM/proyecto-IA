@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Playfair Display', sans-serif;
-    background-color:rgb(75, 72, 68);
+    background-color:white;
 }
 
 /*HEADER*/
@@ -47,6 +47,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    white-space:nowrap;
 }
 
 nav a {
@@ -83,7 +84,7 @@ section {
 section h2{
     
     text-align: center;
-    font-size: 5vh;;
+    font-size: 3vw;;
 }
 
 #noticias{
@@ -183,7 +184,7 @@ footer {
 }
 
 .centrar>* {
-    margin: 3% 0;
+    margin: 1% 0;
 }
 
 .volver {
