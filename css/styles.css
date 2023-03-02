@@ -9,11 +9,13 @@
 
 body {
     font-family: 'Playfair Display', sans-serif;
-    background-color:rgb(255, 241, 227);
+    background-color:rgb(75, 72, 68);
 }
 
 /*HEADER*/
-
+a{
+    transition: 1s ease-in-out;
+}
 header {
     background: rgb(0, 0, 0);
     width: 100%;
@@ -66,7 +68,7 @@ nav a:hover {
 /*MAIN*/
 main {
     color: white;
-    margin: 4vh;
+    margin: 2vh;
     
 }
 
@@ -85,16 +87,17 @@ section h2{
 }
 
 #noticias{
-    background-color: #0c0032;
+    background: linear-gradient(#0c0032, rgb(250, 204, 184));
 }
 #entrevistas{
-    background-color: #190061;
+    background: linear-gradient(#190061, rgb(250, 204, 184));
 }
 #apps{
-    background-color: #240090;
+    background: linear-gradient(#240090, rgb(250, 204, 184));
+    
 }
 #dificultades{
-    background-color: #3500d3;
+    background: linear-gradient(#3500d3, rgb(250, 204, 184));
 }
 
 article {
@@ -140,7 +143,7 @@ footer {
     width: 50px;
     position: fixed;
     height: 50px;
-    background-color: rgba(249, 148, 0, 1);
+    background-color: rgb(133, 200, 255);
     z-index: 20;
     font-size: 50px;
     border-radius: 10px;
@@ -149,12 +152,14 @@ footer {
 
 #UpButton>a {
     text-decoration: none;
-    color: white;
+    color: black;
     margin: 0 auto;
     font-size: 100%;
     text-align: center;
     align-items: center;
     font-family: sans-serif;
+    
+    
 }
 
 
@@ -167,10 +172,14 @@ footer {
 
 .centrar {
     width: 70%;
-    border: 2px solid red;
+    background-color:#ffffff;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    color:black;
+    font-size: 2vh;
+    padding: 5vh;
+    border-radius: 10px;
 }
 
 .centrar>* {
