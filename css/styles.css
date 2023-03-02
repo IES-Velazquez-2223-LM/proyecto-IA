@@ -13,6 +13,8 @@ body {
     background-color:white;
 }
 
+
+
 /*HEADER*/
 a{
     transition: 1s ease-in-out;
@@ -103,6 +105,14 @@ section h2{
     background: linear-gradient(#3500d3, rgb(250, 204, 184));
 }
 
+picture{
+    display: flex;
+    flex-direction: column;
+}
+picture img{
+    object-fit: cover;
+    
+}
 article {
     background-color: whitesmoke;
     margin: 5vh;
@@ -110,6 +120,7 @@ article {
     padding: 5vh;
     border-radius: 5px;
     font-size: 2vh;
+    
     
     
 }
