@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -86,6 +87,7 @@ section h2{
     text-align: center;
     font-size: 3vw;;
 }
+
 
 #noticias{
     background: linear-gradient(#0c0032, rgb(250, 204, 184));
@@ -189,6 +191,15 @@ footer {
 
 .volver {
     margin: 0 auto;
+}
+
+.volver>a{
+    display: flex;
+}
+
+.volver>a>img{
+    width:50%;
+    margin:0 auto;
 }
 
 table {
