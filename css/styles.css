@@ -136,13 +136,6 @@ article {
 }
 
 
-
-
-
-
-
-
-
 /*FOOTER*/
 footer {
     padding: 40px;
@@ -234,4 +227,23 @@ th {
 
 table img {
     width: 50px;
+}
+
+/*FORMULARIO*/
+
+.centrarF{
+    border: 2px solid red;
+    background-color: rgb(71, 70, 70);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+textarea, input{
+    padding: 1%;
+}
+
+.leyenForm{
+    text-align: center;
 }
