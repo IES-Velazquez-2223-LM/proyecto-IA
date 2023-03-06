@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="robots" content="index, follow">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="En esta web repasamos las últimas noticias sobre IA">
+    <meta name="author" content="Marco Blanco, Jose Luis Pino">
+    <meta name="copyright" content="MachineLearners.com">
+    <meta name="keywords" content="IA, Machine Learning, Inteligencia Artificial">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icons/robot_icon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>The Machine Learners</title>
+</head>
+
+<article>
+<body>
+    <header id="header">
+        <h2>Formulario/Encuesta para poder recomendarte nuevos artículos</h2>
+    </header>
+    <main>
+        <div class="centrar">
+            <div class="cabeceras">
+                <figure>
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="../images/artMidJurney_Peque.jpg">
+                        <source media="(min-width: 800px)" srcset="../images/artMidJurney.jpeg">
+                        <img src="./images/artMidJurney.jpeg" alt="MidJourney">
+                    </picture>
+                    <figcaption>Encuesta</figcaption>
+                </figure>
+            </div>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+        
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"><br>
+        
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad"><br>
+        
+                <label for="pregunta1">¿Qué es para ti la Inteligencia Artificial?</label><br>
+                <textarea id="pregunta1" name="pregunta1" rows="5" cols="50"></textarea><br>
+        
+                <label for="pregunta2">¿Cuál crees que es el futuro de la Inteligencia Artificial?</label><br>
+                <textarea id="pregunta2" name="pregunta2" rows="5" cols="50"></textarea><br>
+        
+                <label for="opciones">¿En qué tecnologías relacionadas con la Inteligencia Artificial estás interesado?</label><br>
+                <select id="opciones" name="opciones" multiple>
+                    <option value="aprendizaje-maquina">Machine Learning</option>
+                    <option value="redes-neuronales">Redes neuronales</option>
+                    <option value="procesamiento-lenguaje-natural">Procesamiento de lenguaje natural</option>
+                    <option value="ia-aplicada">IA aplicada a tecnologías</option>
+                    <option value="filosofia-ia">Filosofía de la IA</option>
+                </select><br>
+        
+                <label for="acepto-terminos">Acepto los términos y condiciones:</label>
+                <input type="checkbox" id="acepto-terminos" name="acepto-terminos"><br>
+        
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+            </form>
+            <div class="volver">
+                <a href="../index.html#articulo1Apps"><img src="../images/back-button-icon.png"
+                        alt="Vuelva a la página principal"></a>
+            </div>
+        </div>
+    </main>
+</article>
+    <footer>
+        <p>Alumno1: Jose Luis Pino</p>
+        <p>Alumno2: Marco A. Blanco Lebrón</p>
+        <p>Asignatura: Lenguajes de marcas</p>
+        <p>Curso: 2022-2023</p>
+        <div id="UpButton"><a href="#header">^</a></div>
+    </footer>
+</body>
+</html>
