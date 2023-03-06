@@ -239,6 +239,9 @@ table img {
     flex-direction: column;
 }
 
+fieldset{
+    padding: 3%;
+}
 
 textarea, input{
     padding: 1%;
@@ -246,4 +249,10 @@ textarea, input{
 
 .leyenForm{
     text-align: center;
+    font-size: 150%;
+}
+
+.volverF{
+    width: 50%;
+    margin-top: 3%;
 }
