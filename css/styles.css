@@ -145,9 +145,10 @@ main{
     flex-direction: row;
 }
 
-img{
+figure>a>picture>img{
     max-width: 20vw;
 }
+
 
 .cabeceras{
     border: 2px solid pink;
