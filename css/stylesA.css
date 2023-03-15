@@ -113,6 +113,9 @@ figcaption{
     margin-top: 3vw;
 }
 
+iframe{
+    align-self:center;
+}
 .volver>a>img{
     max-width: 20vw;
 }
