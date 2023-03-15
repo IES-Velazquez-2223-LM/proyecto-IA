@@ -131,6 +131,19 @@ main{
     flex-direction: column;
 }
 
+section>h2{
+    
+    width: 25em;
+    height:2em;
+    font-size: 2em;
+    padding: 0.2em;
+   
+    border-radius: 0px 50px 50px 0px; 
+    
+    
+
+}
+
 .articulos{
     background-color: #fff;
     margin: 3vw auto;
@@ -155,6 +168,7 @@ main{
     display: flex;
     flex-direction: row;
 }
+
 
 figure>a>picture>img{
     max-width: 20vw;
