@@ -20,7 +20,6 @@ body {
 /*HEADER*/
 
 header {
-
     position: fixed;
     top: 0;
     Left: 0;
@@ -31,8 +30,6 @@ header {
     justify-content: flex-end;
     align-items: center;
     transition: 1s;
-
-
 }
 
 header .banner {
@@ -82,7 +79,9 @@ nav {
     position: relative;
     dispLay: flex;
     z-index: 1;
-
+    padding: 0;
+    height: 100%;
+    text-align: center;
 }
 
 nav ul {
@@ -92,7 +91,7 @@ nav ul {
     transform: translateX(100px);
     opacity: 0;
     margin-right:20px;
-
+    text-align: center;
 }
 
 header.sticky nav ul {
@@ -104,13 +103,23 @@ header.sticky nav ul {
 
 nav ul li {
     list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
 
+nav ul li:hover{
+    background-color: #bfbfbf;
+}
+
+nav ul li a:hover{
+    color: black;
 }
 
 nav ul li a {
     color: #fff;
     dispLay: inline-block;
-    padding: 10px 15px;
+    padding: 1.5vw 2vw;
     font-size: 1.2em;
     text-decoration: none;
 }
@@ -124,7 +133,7 @@ main{
 
 .articulos{
     background-color: #fff;
-    margin: 5vw auto;
+    margin: 3vw auto;
     width: 75vw;
     display: flex;
     flex-direction: column;
@@ -158,4 +167,45 @@ figcaption{
 
 .cabeceras{
     margin-bottom: .5vw;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    padding: 1vw 0;
+}
+
+#UpButton {
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    position: fixed;
+    height: 50px;
+    background-color: #fff;
+    z-index: 20;
+    font-size: 50px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#UpButton>a:link{
+    text-decoration: none;
+}
+#UpButton>a:visited {
+    color: black;
+    text-decoration: none 
+}
+
+#UpButton>a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: .7vw;
 }
