@@ -123,11 +123,13 @@ main{
 }
 
 .articulos{
-    border: 2px solid green;
+    background-color: #fff;
     margin: 5vw auto;
-    width: 70vw;
+    width: 75vw;
     display: flex;
     flex-direction: column;
+    padding: 2vw;
+    border-radius: 1vw;
 }
 
 .articulo1{
@@ -136,8 +138,8 @@ main{
 
 .articulo{
     display: flex;
-    border: 2px solid red;
     flex-direction: column;
+    margin-top: 2vw;
 }
 
 .textos{
@@ -147,9 +149,13 @@ main{
 
 figure>a>picture>img{
     max-width: 20vw;
+    margin-right: 1vw;
 }
 
+figcaption{
+    font-size: 1vw;
+}
 
 .cabeceras{
-    border: 2px solid pink;
+    margin-bottom: .5vw;
 }
