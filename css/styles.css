@@ -141,11 +141,7 @@ section>h2 {
     height: 2em;
     font-size: 2em;
     padding: 0.2em;
-
     border-radius: 0px 50px 50px 0px;
-
-
-
 }
 
 .articulos {
@@ -156,6 +152,9 @@ section>h2 {
     flex-direction: column;
     padding: 2vw;
     border-radius: 1vw;
+    -webkit-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
 }
 
 .articulo1 {
