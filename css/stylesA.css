@@ -164,3 +164,24 @@ footer{
     flex-direction: column;
     padding-top: .7vw;
 }
+
+fieldset{
+    padding: 2vw;
+    margin-top: .5vw;
+}
+
+input,label,textarea{
+    margin: .2vw;
+}
+
+fieldset>p{
+    margin-top: 1vw;
+}
+
+#opcion2-4,#opciones{
+    margin-bottom: 1vw;
+}
+
+input,textarea{
+    padding: .5vw;
+}
